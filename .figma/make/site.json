@@ -1,0 +1,10 @@
+{
+  "description": "Provides an interactive mobile-friendly platform to explore bus lines, routes, city maps, schedules, events, and user favorites for efficient transit planning.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

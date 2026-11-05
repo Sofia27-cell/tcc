@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+.leaflet-container { z-index: 1; }
+.leaflet-control-zoom { margin-right: 8px !important; margin-bottom: 8px !important; }
+.leaflet-popup-content { font-family: 'Inter', sans-serif; font-size: 12.5px; }
+.leaflet-popup-content b { font-family: 'Outfit', sans-serif; }
+
+Theme {
+  --font-display: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --color-brand: #1565C0;
+  --color-brand-dark: #0D47A1;
+  --color-brand-light: #1E88E5;
+  --color-accent: #29B6F6;
+  --color-surface: #F0F4FF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #E8EEF9;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.25s ease;
+}
+
+.app-shell {
+  background: linear-gradient(135deg, #E8EEF9 0%, #D6E4FF 100%);
+  transition: background 0.25s ease;
+}
+
+/* Hide scrollbars by default */
+::-webkit-scrollbar { width: 0; height: 0; }
+* { scrollbar-width: none; }
+
+.phone-frame {
+  width: 390px;
+  min-height: 844px;
+  background: #F0F4FF;
+  position: relative;
+  overflow: hidden;
+  border-radius: 44px;
+  box-shadow: 0 32px 80px rgba(13,71,161,0.22), 0 2px 8px rgba(0,0,0,0.12);
+}
+
+.screen {
+  width: 100%;
+  min-height: 844px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 390px;
+  background: white;
+  border-top: 1px solid #DCE6F8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0 24px;
+  z-index: 100;
+  border-radius: 0 0 44px 44px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+  padding: 4px 12px;
+  border-radius: 12px;
+  transition: all 0.18s;
+}
+
+.nav-item.active {
+  background: #E3EFFE;
+}
+
+.nav-item span {
+  font-size: 10px;
+  font-weight: 600;
+  color: #90A4C8;
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: 0.3px;
+}
+
+.nav-item.active span {
+  color: #1565C0;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 2px 12px rgba(21,101,192,0.08);
+  transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+input[type="text"], input[type="search"] {
+  outline: none;
+}
+
+input[type="text"]:focus, input[type="search"]:focus {
+  box-shadow: 0 0 0 2px rgba(21,101,192,0.25);
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+html.dark body {
+  background: #070B14;
+}
+
+.dark.app-shell,
+.dark .app-shell {
+  background: linear-gradient(135deg, #070B14 0%, #101A2D 100%);
+}
+
+.dark .phone-frame {
+  background: #0F172A;
+  box-shadow: 0 32px 80px rgba(0,0,0,0.45), 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.dark .bottom-nav {
+  background: #111B2E;
+  border-top-color: #26344D;
+}
+
+.dark .nav-item.active {
+  background: #1B3152;
+}
+
+.dark .nav-item.active span {
+  color: #60A5FA;
+}
+
+.dark .card,
+.dark .bg-white {
+  background-color: #172033;
+  box-shadow: 0 2px 14px rgba(0,0,0,0.2);
+}
+
+.dark .bg-blue-50,
+.dark .bg-orange-50 {
+  background-color: #1E293B;
+}
+
+.dark .text-gray-900,
+.dark .text-gray-800 {
+  color: #F8FAFC;
+}
+
+.dark .text-gray-700 {
+  color: #E2E8F0;
+}
+
+.dark .text-gray-500,
+.dark .text-gray-400 {
+  color: #94A3B8;
+}
+
+.dark .text-blue-900 {
+  color: #BFDBFE;
+}
+
+.dark .text-blue-600 {
+  color: #60A5FA;
+}
+
+.dark .border-gray-50,
+.dark .border-gray-100,
+.dark .border-blue-100,
+.dark .border-blue-200 {
+  border-color: #334155;
+}
+
+.dark .hover\:bg-gray-50:hover,
+.dark .active\:bg-gray-100:active,
+.dark .hover\:bg-blue-50:hover,
+.dark .hover\:bg-blue-100:hover {
+  background-color: #24324A;
+}
+
+.dark .theme-toggle-thumb {
+  background-color: white;
+}
+
+.dark .event-card {
+  background: #172033 !important;
+  border-color: #334155 !important;
+}
+
+.dark .leaflet-tile-pane {
+  filter: brightness(0.62) invert(1) contrast(2.2) hue-rotate(195deg) saturate(0.45);
+}
+
+.dark .leaflet-popup-content-wrapper,
+.dark .leaflet-popup-tip,
+.dark .leaflet-control-zoom a {
+  background: #172033;
+  color: #F8FAFC;
+}
+
+.transition-screen {
+  animation: fadeSlide 0.22s ease-out;
+}
+
+@keyframes fadeSlide {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
