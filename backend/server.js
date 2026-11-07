@@ -5,9 +5,11 @@ require("dotenv").config();
 const app = express();
 const PORT = 3000;
 
+// Configurações
 app.use(cors());
 app.use(express.json());
 
+// Rota inicial
 app.get("/", (req, res) => {
   res.json({
     sistema: "BusLine Company",
@@ -15,6 +17,7 @@ app.get("/", (req, res) => {
   });
 });
 
+// Receber localização do carrinho
 app.post("/localizacao", (req, res) => {
   const { latitude, longitude } = req.body;
 
@@ -33,6 +36,7 @@ app.post("/localizacao", (req, res) => {
   });
 });
 
+// Iniciar servidor
 app.listen(PORT, () => {
   console.log(`BusLine Backend rodando na porta ${PORT}`);
 });
