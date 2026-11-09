@@ -1,0 +1,167 @@
+
+Centro Estadual de Educação Tecnológica Paula Souza
+ETEC Dr. Nelson Alves Vianna
+Ensino Técnico Integrado ao Médio – Desenvolvimento de Sistemas
+
+Viabilidade do Projeto
+Pedro Henrique P. Crescêncio
+Lauana Rocha
+Sofia Mates
+João Otávio
+
+Resumo:
+Nosso trabalho foca no auxílio dos cidadãos com o transporte público (circular), que se mantem com um mal funcionamento, muitas vezes atrasado ou fora de linha, esse trabalho vem ajudando as pessoas do município com o rastreio do ônibus, com amostras de seu uso (quais são suas condições). 
+Palavras-chave: Rastreamento de ônibus, Transporte Público, Arduino.
+Summary:
+Our project focuses on helping citizens with public transportation (the local bus system), which often suffers from poor service, frequent delays, and buses being out of service. This Project aims to help people in the municipality by providing real-time bus tracking and collecting data about its usage and operating conditions. Through this information, citizens can better monitor the buses and understand their availability, while also helping identify problems and improve the quality of public transportation.
+Metodologia PDCA
+Para o desenvolvimento de nosso projeto, foi usada a metodologia PDCA, uma metodologia de gestão baseada em um ciclo de planejamento, execução, verificação e ação para melhoria. A utilização dessa metologia permite organizar as partes do projeto e acompanhar o desenvolvimento da solução.
+O ciclo PDCA é dividido em quatro partes: Plan (Planejar), Do (Executar), Check (Verificar) e Act (Agir). Em nosso projeto, cada uma dessas partes foi aplicada de acordo com as necessidades identificadas no projeto.
+1.1	Plan- Planejamento
+Em sua primeira etapa, vimos o problema relacionado ao funcionamento do transporte público, principalmente em relação aos atrasos, a falta de informações sobre o horário e a interrupção de rota.
+A partir desse problema, nosso grupo definiu como objetivo o desenvolvimento de uma tecnologia capaz de auxiliar a população.
+Para entendermos melhor os usuários do transporte, realizamos pesquisas e entrevistas com a população. As informações que conseguimos nos ajudaram a identificar que a falta de comunicação com a população e uma das principais dificuldades enfrentadas pela população.
+Com essas informações, foram definidas as principais funcionalidades do projeto, como rastreamento do ônibus em tempo real, visualização das rotas, consulta aos horários, informações sobre atrasos, condições dos veículos e a criação de uma interface simples.
+Também foi analisado os recursos necessários pra o desenvolvimento do protótipo incluindo componentes elétricos, Arduino, ferramentas digitais e os kits de desenvolvimento.
+1.2	Do- Execução
+Na segunda etapa, colocamos em pratica as ações planejadas. O grupo iniciou o desenvolvimento da plataforma digital e no protótipo.
+Foram utilizados componentes eletrônicos disponíveis nos kits dados ao grupo, incluindo equipamento RoboCore. O Arduino foi utilizado como parte do sistema físico responsável pela coleta e transmissão das informações relacionadas a localização do veículo.
+Junto ao desenvolvimento do hardware, foi criada a estrutura da plataforma digital, com foco em uma interface simples. Planejamos funcionalidades como visualização de rotas, horários, localização dos veículos, informações de atrasos, condições dos veículos e perfil do usuário.
+Por meio das redes sociais fizemos a divulgação de nosso site, utilizamos da rede social Instagram para compartilhar informações, entrevistas e conteúdos relacionados.
+1.3	Check- Verificação 
+Na terceira etapa, analisamos os resultados obtidos durante a pesquisa e os testes realizados.
+As respostas coletadas nas entrevistas foram utilizadas para verificar se as funcionalidades planejadas atendiam às principais necessidades identificadas entre os usuários.
+Os resultados demonstraram que a falta de informações sobre atrasos, alterações em rotas e possíveis interrupções no serviço é uma das principais dificuldades enfrentadas pela população. Com isso, foi possível confirmar que as funcionalidades de nosso aplicativo estão de acordo com as necessidades.
+Também planejamos uma simulação do funcionamento do sistema utilizado o protótipo eletrônico instalado em um pequeno veículo.
+Durante a simulação, os dados de localização e telemetria serão enviados para a plataforma digital, permitindo verificar a integração entre haedware e o sistema desenvolvido.
+Esta etapa possibilitou identificar falhas no funcionamento do protótipo e da plataforma, permitindo que os integrantes do grupo realizem ajustes.
+1.4	ACT- Ação e Melhoria
+Na quarta e última etapa o PDCA, foram analisados os resultados obtidos durante as etapas anteriores para identificar melhorias necessárias no projeto.
+A partir das respostas das entrevistas e das verificações realizadas, o grupo decidiu priorizar as funcionalidades consideradas mais importantes pelos usuários, principalmente o rastreamento dos ônibus, a visualização das rotas, os horários de circulação e a comunicação sobre atrasos e alterações no serviço.
+Também realizamos melhorias na organização visual da plataforma, buscando desenvolver uma interface mais simples, objetiva e acessível.
+Os testes e simulações também serão utilizados para identificar possíveis problemas relacionados à comunicação entre o Arduino e a plataforma digital. Caso sejam encontradas falhas.
+Além disso, os resultados obtidos durante a pesquisa e o desenvolvimento serão utilizados como base para futuras melhorias.
+Dessa maneira, o ciclo PDCA contribuiu para o desenvolvimento contínuo da solução, permitindo que o projeto fosse planejado, executado, analisado e aprimorado de acordo com as necessidades identificadas.
+
+
+1 EXPANSÃO NO MERCADO
+Observou-se que o projeto apresenta uma relação custo-benefício extremamente positiva para os municípios, uma vez que utiliza um sistema simples de localização baseado em Arduino como componente físico. Além disso, será desenvolvido pelo próprio grupo um site independente, sem vínculo direto com a prefeitura ou com órgãos públicos.
+Dessa forma, os principais custos do projeto estão relacionados à aquisição dos componentes necessários para a montagem e o funcionamento do sistema baseado em Arduino. Essa característica contribui para tornar a solução acessível e possibilita sua implementação em diferentes municípios que apresentem problemas relacionados ao transporte público.
+2 OPERAÇÃO DO PROJETO COM RECURSOS DISPONÍVEIS
+O projeto não necessitará de muitas aquisições externas. Para a construção do protótipo, será necessário utilizar principalmente um Arduino e os componentes eletrônicos disponíveis nos kits cedidos ao grupo.
+Grande parte do desenvolvimento será realizada por meio de simuladores, ferramentas digitais e softwares de uso gratuito. A documentação do projeto também será elaborada utilizando ferramentas acessíveis, como o Microsoft Word ou outras plataformas gratuitas de edição de documentos.
+Essa utilização de recursos disponíveis contribui para a redução dos custos de desenvolvimento e permite que o grupo concentre seus esforços na programação, na construção do protótipo e no desenvolvimento da plataforma de rastreamento.
+3 IMPACTOS AO MEIO AMBIENTE
+Considerando a finalidade e a estrutura do projeto, estima-se que seus impactos ambientais sejam mínimos. O sistema não depende da utilização de matérias-primas em grande escala nem de componentes que apresentem riscos significativos à saúde humana quando utilizados de maneira adequada.
+A implementação será realizada por meio de dispositivos eletrônicos de pequeno porte, como placas Arduino e seus respectivos componentes, que poderão ser instalados em ônibus de diferentes rotas do transporte público.
+Dessa maneira, o projeto busca utilizar uma quantidade reduzida de componentes físicos, priorizando ferramentas digitais e sistemas de simulação durante as etapas de desenvolvimento e testes.
+4 DESCRIÇÃO DO PROJETO
+O projeto apresenta uma nova configuração visual e funcional para uma plataforma destinada ao acompanhamento do transporte público. O objetivo é desenvolver uma interface simples, intuitiva e confortável para os usuários, proporcionando uma relação mais acessível entre a população e o sistema de transporte municipal.
+Com foco na inovação e na facilidade de utilização, foi desenvolvido um design mais simples e objetivo, acompanhado de mudanças na identidade visual e na organização das informações. Entre as funcionalidades planejadas estão as abas de favoritos, novas opções de rotas, perfil do usuário, condições dos ônibus e informações relacionadas aos atrasos diários.
+4.1 Pesquisa com a comunidade
+Com a finalidade de compreender melhor as necessidades da comunidade, foram realizadas entrevistas para identificar o interesse da população e os principais problemas enfrentados pelos usuários do transporte público.
+A partir das entrevistas, foi possível observar que um dos problemas que mais prejudica a população é a falta de informações sobre atrasos e alterações nas rotas dos ônibus. Essa falta de comunicação pode fazer com que os usuários percam compromissos e tenham sua rotina prejudicada.
+Durante as entrevistas, o participante Gabriel Felipe destacou a importância de uma ferramenta desse tipo ao afirmar que “seria muito útil um aplicativo que me dissesse os atrasos e até mesmo se o ônibus não vai mais passar”.
+Esse pensamento também foi compartilhado pelos participantes Laura e Luís Gabriel, que destacaram a importância da comunicação sobre a circulação dos ônibus e sobre a possibilidade de o veículo não realizar determinada rota.
+Os resultados obtidos nas entrevistas demonstraram a necessidade de disponibilizar informações mais precisas aos usuários. A partir dessas informações, o grupo decidiu aprimorar o sistema de rastreamento do ônibus circular, buscando proporcionar maior transparência e praticidade aos usuários.
+4.2 Divulgação e comunicação
+Como parte das estratégias de divulgação do projeto, foi criada uma página no Instagram destinada à produção e publicação de conteúdos relacionados ao projeto e ao marketing da equipe.
+Na página, serão divulgadas as entrevistas realizadas durante a pesquisa de campo, informações sobre o desenvolvimento da plataforma e materiais relacionados à proposta do projeto.
+A produção do conteúdo comunicativo conta com a participação da integrante Sofia, responsável pela gravação dos materiais, e da participante Lauana, responsável pela edição e organização dos conteúdos destinados à divulgação.
+5 PARCERIAS E RECURSOS DISPONÍVEIS
+Após a realização da pesquisa de campo e a validação do interesse da população, o projeto recebeu o apoio da coordenadora pedagógica Karina Bete.
+Como incentivo ao desenvolvimento da solução, foram cedidos, por meio de empréstimo, dois kits de desenvolvimento da marca RoboCore: um Kit Iniciante V8 e um Kit Avançado V4.
+A disponibilidade desses equipamentos possibilitou ao grupo realizar testes e desenvolver o protótipo utilizando componentes eletrônicos já disponíveis, reduzindo a necessidade de novos investimentos durante a fase inicial do projeto.
+6 METODOLOGIA DE TESTES E SIMULAÇÃO
+Com o recebimento dos materiais, a viabilidade financeira do projeto tornou-se ainda mais favorável, uma vez que houve redução dos custos iniciais relacionados à aquisição de hardware para testes.
+Os componentes presentes nos kits cedidos serão utilizados na construção do protótipo do sistema de rastreamento. O objetivo é desenvolver um circuito capaz de coletar e transmitir informações relacionadas à localização do veículo.
+Para demonstrar o funcionamento prático da plataforma, será realizada uma simulação em escala reduzida. O circuito eletrônico será instalado em um pequeno veículo, representado por um carrinho, que realizará movimentos simulando o deslocamento de um ônibus circular pelas rotas do município.
+Durante a simulação, o protótipo enviará dados de telemetria para a plataforma desenvolvida pelo grupo. Dessa maneira, será possível demonstrar, durante as apresentações, o funcionamento do sistema de rastreamento e a capacidade do aplicativo ou site de acompanhar a posição do veículo em tempo real.
+Essa metodologia permitirá avaliar o funcionamento integrado entre o hardware, o sistema de localização e a plataforma digital, possibilitando a identificação de possíveis falhas e a realização de melhorias antes de uma eventual implementação em veículos reais. 
+Considerações Finais:
+Nosso objetivo é apresentar à população o funcionamento do aplicativo, demonstrando seu modo de utilização, suas principais funcionalidades e sua proposta. Dessa forma, buscamos facilitar o acesso às informações relacionadas ao transporte público, permitindo que os usuários acompanhem as rotas, os horários e as condições de circulação dos veículos.
+Além disso, buscamos chamar a atenção de outros municípios para que a utilização do aplicativo possa ser ampliada e, consequentemente, possamos auxiliar cada vez mais pessoas que dependem do transporte público em seu dia a dia.
+Em nossa avaliação, conseguimos desenvolver uma proposta capaz de proporcionar maior conforto, facilidade e praticidade aos usuários. O aplicativo foi planejado para ser de fácil acesso, diversificado e direcionado às necessidades da população.
+Por meio da plataforma, os usuários poderão consultar informações sobre rotas, horários e condições dos veículos de maneira simples e objetiva. Dessa forma, independentemente do nível de conhecimento ou familiaridade do usuário com a tecnologia, a população poderá utilizar o aplicativo de maneira acessível e compreender suas principais funcionalidades.
+Assim, o projeto demonstra o potencial da tecnologia como ferramenta de apoio à população, contribuindo para uma utilização mais eficiente do transporte público e para uma melhor comunicação entre os usuários e o sistema de transporte.
+
+Referências: 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 6023: Informação e documentação — Referências — Elaboração. Rio de Janeiro: ABNT.
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 6024: Informação e documentação — Numeração progressiva das seções de um documento — Apresentação. Rio de Janeiro: ABNT.
+ARDUINO. Arduino Documentation. Disponível em: https://docs.arduino.cc/. Acesso em: 19 ago. 2026.
+ROBOCORE. RoboCore. Disponível em: https://www.robocore.net/. Acesso em: 19 ago. 2026.
+
+APÊNDICE A –PESQUISA COM A POPULAÇÃO
+Este apêndice apresenta questões utilizadas pelo grupo durante as entrevistas realizadas com os usuários de transporte público(circulares). A entrevista teve em seu foco principal identificar os problemas que a população sofre ao utilizar os ônibus e buscar a melhor solução para os usuários.
+A.1 Questionário
+Utilizamos as perguntas para compreender a frequência com que a população faz uso dos ônibus públicos para que com isso possamos descobrir seu pior problema que se encontra na falta de informação, com isso o maior interesse da população foi um aplicativo que fosse capaz de informar futuros atrasos ou problemas.
+
+Você mora em Tietê?
+() Sim
+() Não
+Com qual gênero você se identifica?
+() Feminino
+() Masculino
+() Outro
+() Prefiro não responder
+Qual sua faixa etária?
+() Até 17 anos
+() 18–24 anos
+() 25–34 anos
+() 35–44 anos
+() 45–54 anos
+() 55–64 anos
+() 65 anos ou mais
+Qual o seu nível de escolaridade?
+() Sem instrução / Ensino fundamental incompleto
+() Ensino fundamental completo
+() Ensino médio (completo ou incompleto)
+() Ensino superior (completo ou incompleto)
+() Pós-graduação
+Qual alternativa melhor representa a sua situação ocupacional atual?
+() Empregado com carteira assinada (CLT)
+() Funcionário público / militar
+() Autônomo / conta própria / trabalhador informal
+() Empresário / empregador
+() Estudante (sem trabalho remunerado)
+() Aposentado / pensionista
+() Desempregado / buscando trabalho
+() Do lar
+Outro:
+
+
+Qual é a renda total por mês das pessoas que moram no seu domicílio?
+Considere a soma da renda de todos os moradores, incluindo salários, aposentadorias, pensões e outras fontes. Utilize como referência o salário-mínimo vigente.
+() Até 1 salário-mínimo
+() De 1 a 2 salários-mínimos
+() De 2 a 3 salários-mínimos
+() De 3 a 5 salários-mínimos
+() Mais de 5 salários-mínimos
+() Não sei / prefiro não responder
+Você possui alguma deficiência ou condição que gere mobilidade reduzida?
+() Sim, possuo mobilidade reduzida permanente
+() Sou responsável por pessoa com mobilidade reduzida permanente
+() Não possuo mobilidade reduzida permanente
+() Prefiro não responder
+Você utiliza o transporte coletivo municipal de Tietê em seus deslocamentos?
+() Sim, utilizo atualmente
+() Já utilizei, mas não uso mais
+() Nunca utilizei
+Deixe aqui suas sugestões, críticas e comentários sobre o transporte coletivo municipal de Tietê:
+
+
+A.2 Entrevista Gravada
+Além do questionário, realizamos também entrevistas com usuários do transporte público para entender plenamente a experiência com o uso do transporte.
+Durante as entrevistas, observamos problemas relacionados principalmente a falta de informação sobre atrasos, mudanças na rota e má manutenção dos veículos.
+Um dos participantes destacou o seu maior problema com o transporte sendo esse a falta de informação e nos trouxe a ideia de:
+“Seria muito útil um aplicativo que me dissesse os atrasos e até mesmo se o ônibus não vai mais passar.”
+As respostas que obtivemos contribuíram para as principais funcionalidades do nosso projeto, especialmente o rastreio do veículo público em tempo real, a apresentação das rotas, os horários e a comunicação de futuros atrasos.
+A.3 Resultado da Pesquisa
+Analisando as respostas identificamos que a falta de informação sobre o transporte público é uma das principais dificuldades enfrentadas pela população.
+A partir dos resultados, o grupo viu a necessidade de desenvolver uma solução que fosse capaz de apresentar informações claras e objetivas. Deste jeito priorizamos funcionalidades ligadas ao rastreio do ônibus, facilitando o rastreamento, à visualização de rotas, os horários de circulação e à comunicação de atrasos.
+Os resultados também mostraram o desejo da população para a criação e utilização de um aplicativo voltado para o transporte público. Essas informações finais foram usadas de base para o desenvolvimento de nosso aplicativo.
+A.4 Contribuição da Pesquisa
+As informações que coletamos durante nossa pesquisa foram utilizadas para guiar o desenvolvimento de nosso site. Com a demonstração das necessidades populacionais, o grupo focou em desenvolver uma interface de fácil acesso, permitindo que muitos usuários fossem capazes de utilizar suas funções independente do seu nível de escolaridade.
+Com a realização da pesquisa ela nos ajudou a comprovar e validar a proposta de nosso trabalho, mostrando que existe um grave problema no sistema de transporte publico em relação a população.
+Dessa forma, o questionário e entrevistas serviram de instrumento para mostrar problemas enfrentados pela população. 
+
